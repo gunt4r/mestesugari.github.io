@@ -1,0 +1,160 @@
+.navbar-brand {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 5%;
+    white-space: nowrap;
+  }
+  .Casa-logo {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    margin-right: 2rem;
+    font-weight: 200;
+  }
+  
+  
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+  }
+  
+  .CasaHeader {
+    width: 100%;
+  
+    margin-top: 2rem;
+  }
+  .phone-logo {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: auto;
+  }
+  
+  .contacteazane {
+    font-size: 0.9rem;
+    line-height: 15px;
+    white-space: nowrap;
+  }
+  
+  .phone {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: 3vw;
+  }
+  .setLimba {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .social-media {
+    width: 100%;
+    display: flex;
+    margin-right: 3vw;
+    text-align: center;
+  }
+  
+  .social-media-logo-linkedin,
+  .social-media-logo-instagram,
+  .social-media-logo-facebook {
+    margin-right: 15px;
+  }
+  
+  .Romania-logo {
+    margin-bottom: auto;
+  }
+  .limba {
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  #linkedinLogo{
+    margin-left: 50px;
+  }
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+  @media screen and (max-width: 1199px) { 
+    .social-media {
+      margin-right: 0;
+    }
+    #linkedinLogo{
+      margin-left: 0px;
+    }
+    .Casa-logo {
+      font-size: 1.3rem;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  
+    .container-fluid {
+      margin-left: 0;
+    }
+    .container-lg {
+      margin-left: 0;
+    }
+    .setLimba {
+      display: block;
+    }
+  
+    .phone {
+      display: block;
+    }
+  
+    .social-media {
+      flex-direction: row;
+    }
+  
+    .social-media-logo-linkedin,
+    .social-media-logo-instagram,
+    .social-media-logo-facebook {
+      margin-right: 15px;
+    }
+  
+    .nav-link {
+      display: flex;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid rgb(148, 132, 132);
+      border-radius: 5px;
+    }
+  
+    #Contact {
+      margin-right: 0px;
+    }
+  
+    button {
+      margin-bottom: 2rem;
+    }
+  
+    .Casa-logo {
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+    }
+  
+    img {
+      flex-direction: row;
+      width: 20px; 
+      height: auto; 
+      margin-right: 5px;
+    }
+  }
+  
+  

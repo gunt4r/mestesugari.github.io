@@ -1,0 +1,57 @@
+ .anunt{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+ }
+
+ .anuntHeading{
+  text-align: center;
+ }
+ 
+ .anuntParagraph{
+  display: flex;
+  justify-content: center;
+  margin-right: 6%;
+ }
+ /* SECTION MAP */
+  
+  .map {
+    background-color: #5e5c5c;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8rem;
+  }
+  
+  input {
+    border-radius: 0.13781rem;
+    border: 0.368px solid #8d8d8d;
+    background: gray;
+    display: flex;
+    width: 33.0625rem;
+    padding: 0.45944rem 0.73513rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  textarea {
+    border-radius: 0.13781rem;
+    border: 0.368px solid #8d8d8d;
+    background: gray;
+    display: flex;
+    width: 33.03394rem;
+    height: 5.73938rem;
+    padding: 0.45944rem 0.73513rem;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin-bottom: 1rem;
+  }
+  
+  input::placeholder {
+    color: #5e5c5c;
+  }
+  
+  textarea::placeholder {
+    color: #5e5c5c;
+  }
+  

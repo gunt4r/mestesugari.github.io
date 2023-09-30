@@ -1,0 +1,158 @@
+.footerImage {
+  flex-shrink: 0;
+}
+.footer {
+  width: 75%;
+  margin-bottom: 2rem;
+}
+
+.Header {
+  font-family: Roboto;
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 4rem;
+}
+
+.imgFooterWood {
+  width: 100%;
+}
+.footerNavBar {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.footerNavbarItems {
+  font-weight: 200;
+}
+
+.footerNavbarItems:not(:last-child) {
+  margin-right: 0.6rem;
+}
+
+.iconFooterCloud {
+  width: 3rem;
+  flex-shrink: 0;
+}
+
+.HeaderFooterSecond {
+  font-family: Roboto;
+  font-size: 2.5rem;
+  font-style: normal;
+  margin-bottom: 2rem;
+}
+
+.ParagraphFooter {
+  margin-bottom: 2rem;
+}
+
+.formSubmit {
+  border-radius: 0.10781rem;
+  background: #e2c401;
+  width: 100%;
+  height: 5.6305rem;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footerFirstPart {
+  margin-right: 3rem;
+}
+
+.footerRights > p {
+  font-size: 0.8rem;
+}
+
+.footerRights {
+  display: block;
+  text-align: center;
+}
+@media screen and (max-width: 996px) {
+  .footerContent {
+    display: block;
+  }
+  .footerNavbarItems:nth-child(n) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .footerNavBar {
+    justify-content: center;
+  }
+  ul {
+    padding-left: 0;
+  }
+  a {
+    font-weight: 400;
+  }
+  .Header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .imgFooterWood {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    margin-bottom: 3rem;
+  }
+  .iconFooterCloud {
+    width: 10%;
+    display: flex;
+    margin-left: auto;
+  }
+  .footerSecondPartCenter {
+    display: inline;
+  }
+  .Header {
+    font-size: 2rem;
+  }
+  .footerFirstPart {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 508px) {
+  .footerNavBar {
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footerNavbarItems:not(:last-child) {
+    margin-right: -1rem;
+  }
+
+  .footerNavbarItems:last-child {
+    margin-right: 0;
+  }
+
+  .imgFooterWood {
+    width: 100%;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .footerNavbarItems {
+    font-weight: 200;
+    font-size: 0.6rem;
+    margin-left: auto;
+  }
+}
