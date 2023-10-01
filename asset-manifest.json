@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mestesugari.github.io/static/css/main.ffadaaf8.css",
-    "main.js": "/mestesugari.github.io/static/js/main.fb6833d4.js",
+    "main.js": "/mestesugari.github.io/static/js/main.1befa5bd.js",
     "static/media/opinciDacice.mp4": "/mestesugari.github.io/static/media/opinciDacice.46d2c2340a041bbf6603.mp4",
     "static/media/tesut.mp4": "/mestesugari.github.io/static/media/tesut.b56c5bb92f1c90d1cd5c.mp4",
     "static/media/video.mp4": "/mestesugari.github.io/static/media/video.ade0021a98d5ffe0f388.mp4",
@@ -26,10 +26,10 @@
     "static/media/linkedin-icon-1-logo-png-transparent.png": "/mestesugari.github.io/static/media/linkedin-icon-1-logo-png-transparent.bc5229cfda49651198a1.png",
     "index.html": "/mestesugari.github.io/index.html",
     "main.ffadaaf8.css.map": "/mestesugari.github.io/static/css/main.ffadaaf8.css.map",
-    "main.fb6833d4.js.map": "/mestesugari.github.io/static/js/main.fb6833d4.js.map"
+    "main.1befa5bd.js.map": "/mestesugari.github.io/static/js/main.1befa5bd.js.map"
   },
   "entrypoints": [
     "static/css/main.ffadaaf8.css",
-    "static/js/main.fb6833d4.js"
+    "static/js/main.1befa5bd.js"
   ]
 }
